@@ -42,7 +42,7 @@ public class MathControllerTest {
             String.class
         );
 
-        String expected = "7";
+        String expected = "6";
         assertEquals(expected, response.getBody());
     }
     
@@ -52,5 +52,5 @@ public class MathControllerTest {
     private String createUrlWithPort(String uri) {
         return "http://localhost:" + port + uri;
     }
-    
+
 }
