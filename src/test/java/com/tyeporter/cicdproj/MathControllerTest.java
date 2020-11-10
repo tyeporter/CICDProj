@@ -42,7 +42,7 @@ public class MathControllerTest {
             String.class
         );
 
-        String expected = "6";
+        String expected = "7";
         assertEquals(expected, response.getBody());
     }
     
